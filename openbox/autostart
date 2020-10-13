@@ -1,1 +1,26 @@
-/home/trekkete/openbox-themes/Current/openbox-3/autostart
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+(sleep 1 ; picom -c) &
+
+(sleep 1 ; volumeicon) &
+
+(sleep 1 ; nm-applet) &
+
+tint2 &
+
+feh --bg-fill Downloads/Telegram\ Desktop/Bleach\ -\ 161\ -\ 13.jpg
+# If you want to use GNOME config tools...
+#
+#if test -x /usr/lib/openbox/gnome-settings-daemon >/dev/null; then
+#  /usr/lib/openbox/gnome-settings-daemon &
+#elif which gnome-settings-daemon >/dev/null 2>&1; then
+#  gnome-settings-daemon &
+#fi
+
+# If you want to use XFCE config tools...
+#
+#xfce-mcs-manager &
