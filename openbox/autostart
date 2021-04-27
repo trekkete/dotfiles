@@ -12,7 +12,7 @@
 
 tint2 &
 
-feh --bg-fill Downloads/Telegram\ Desktop/Bleach\ -\ 161\ -\ 13.jpg
+feh --bg-fill .local/share/backgrounds/taylor.JPG
 # If you want to use GNOME config tools...
 #
 #if test -x /usr/lib/openbox/gnome-settings-daemon >/dev/null; then
